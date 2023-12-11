@@ -181,7 +181,7 @@ for dir in "$BASE_DIR"/*; do
         run_test "${dir}" "Deleting a submission" true \
         "echo -e '${ADMIN_LOGIN}${DELETE_SUBMISSION}${NL}${STUDENT_ID_1}${NL}${ASSIGNMENT_ID_1}${NL}${EXIT}${NL}' | python main.py"
 
-        exit
+        # exit
     fi
     
 done
