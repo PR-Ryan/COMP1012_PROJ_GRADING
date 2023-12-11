@@ -10,14 +10,17 @@ NEW_USER_USERNAME="newuser"
 NEW_USER_PASSWORD="newpassword"
 STUDENT_ID_1="001"
 STUDENT_ID_2="002"
-ASSIGNMENT_ID_1="ASSIGNMENT_1"
-ASSIGNMENT_ID_2="ASSIGNMENT_2"
+ASSIGNMENT_ID_1="assignment1"
+ASSIGNMENT_ID_2="assignment2"
 
+SUBMISSION_TEST_FILE_1="${GRADING_DIR}/${ASSIGNMENT_ID_1}/submission_test_file_1.txt"
+SUBMISSION_TEST_FILE_2="${GRADING_DIR}/${ASSIGNMENT_ID_1}/submission_test_file_2.txt"
 
-SUBMISSION_TEST_FILE_1="${GRADING_DIR}/submission_test_file_1.txt"
-SUBMISSION_TEST_FILE_2="${GRADING_DIR}/submission_test_file_2.txt"
+SUBMISSION_TEST_FILE_3="${GRADING_DIR}/${ASSIGNMENT_ID_2}/submission_test_file_3.txt"
+SUBMISSION_TEST_FILE_4="${GRADING_DIR}/${ASSIGNMENT_ID_2}/submission_test_file_4.txt"
+
 GRAD_JSON_FILE="${GRADING_DIR}/grades.json"
-OUTPUT_FILE="${GRADING_DIR}/test_results.txt"
+
 
 HELP=1
 ADD_USER=2
@@ -36,11 +39,6 @@ NEWLINE="\n"
 
 
 
-# Clear the output file if it already exists
-> "$OUTPUT_FILE"
-
-# Redirect output
-exec > "$OUTPUT_FILE" 2>&1
 
 # Function to run a test and log its output
 run_test() {
@@ -69,6 +67,11 @@ ADMIN_LOGIN="${ADMIN_USERNAME}${NEWLINE}${ADMIN_PASSWORD}${NEWLINE}"
 # Iterate over each student directory and run tests
 for dir in "$BASE_DIR"/*; do
     if [ -d "${dir}" ]; then  # Check if it's a directory
+    
+        OUTPUT_FILE="${dir}/test_results.txt"
+        > "$OUTPUT_FILE"
+        # Redirect output
+        exec > "$OUTPUT_FILE" 2>&1
 
         echo "--------------------Running test for $dir --------------------"
 
@@ -90,8 +93,8 @@ for dir in "$BASE_DIR"/*; do
         ###################### Test Exit ######################
         run_test "${dir}" "Test Exit" false "echo -e '${ADMIN_LOGIN}${EXIT}${NEWLINE}' | python main.py"
 
-        ###################### Store a Submission ######################
-        run_test "${dir}" "Storing a submission" false "echo -e '${ADMIN_LOGIN}${ADD_SUBMISSION}${NEWLINE}${STUDENT_ID_1}${NEWLINE}${ASSIGNMENT_ID_1}${NEWLINE}${SUBMISSION_TEST_FILE_1}${NEWLINE}${EXIT}${NEWLINE}' | python main.py"
+        ###################### Store a Submission: 2 for assignment 1 and 2 for assignment 2 ######################
+        run_test "${dir}" "Store a submission for ${STUDENT_ID_1} ${ASSIGNMENT_ID_1}" false "echo -e '${ADMIN_LOGIN}${ADD_SUBMISSION}${NEWLINE}${STUDENT_ID_1}${NEWLINE}${ASSIGNMENT_ID_1}${NEWLINE}${SUBMISSION_TEST_FILE_1}${NEWLINE}${EXIT}${NEWLINE}' | python main.py"
         if [ ! -d "${dir}/data" ]; then
             echo "Directory ${dir}/data does not exist."
             # Base_Score=$((Base_Score-3))
@@ -112,13 +115,17 @@ for dir in "$BASE_DIR"/*; do
             fi
         fi
 
+        run_test "${dir}" "Store a submission ${STUDENT_ID_2} ${ASSIGNMENT_ID_1}" false "echo -e '${ADMIN_LOGIN}${ADD_SUBMISSION}${NEWLINE}${STUDENT_ID_2}${NEWLINE}${ASSIGNMENT_ID_1}${NEWLINE}${SUBMISSION_TEST_FILE_2}${NEWLINE}${EXIT}${NEWLINE}' | python main.py"
+        run_test "${dir}" "Store a submission ${STUDENT_ID_1} ${ASSIGNMENT_ID_2}" false "echo -e '${ADMIN_LOGIN}${ADD_SUBMISSION}${NEWLINE}${STUDENT_ID_1}${NEWLINE}${ASSIGNMENT_ID_2}${NEWLINE}${SUBMISSION_TEST_FILE_2}${NEWLINE}${EXIT}${NEWLINE}' | python main.py"
+        run_test "${dir}" "Store a submission ${STUDENT_ID_2} ${ASSIGNMENT_ID_2}" false "echo -e '${ADMIN_LOGIN}${ADD_SUBMISSION}${NEWLINE}${STUDENT_ID_2}${NEWLINE}${ASSIGNMENT_ID_2}${NEWLINE}${SUBMISSION_TEST_FILE_2}${NEWLINE}${EXIT}${NEWLINE}' | python main.py"
 
-        ###################### Grad a submission ######################
-        run_test "${dir}" "Grading a submission" false "echo -e '${ADMIN_LOGIN}${GRAD_SUBMISSION}${NEWLINE}${STUDENT_ID_1}${NEWLINE}${ASSIGNMENT_ID_1}${NEWLINE}90${NEWLINE}${EXIT}${NEWLINE}' | python main.py"
+        ###################### Grad a submission: student 2 with assignment 2 is not graded ######################
+        run_test "${dir}" "Grad and store a submission for ${STUDENT_ID_1} ${ASSIGNMENT_ID_1}" false "echo -e '${ADMIN_LOGIN}${GRAD_SUBMISSION}${NEWLINE}${STUDENT_ID_1}${NEWLINE}${ASSIGNMENT_ID_1}${NEWLINE}90${NEWLINE}${STORE_GRADES_TO_JSON}${NEWLINE}${GRAD_JSON_FILE}${NEWLINE}{EXIT}${NEWLINE}' | python main.py"
+        run_test "${dir}" "Grad and store a submission for ${STUDENT_ID_2} ${ASSIGNMENT_ID_1}" false "echo -e '${ADMIN_LOGIN}${GRAD_SUBMISSION}${NEWLINE}${STUDENT_ID_2}${NEWLINE}${ASSIGNMENT_ID_1}${NEWLINE}80${NEWLINE}${STORE_GRADES_TO_JSON}${NEWLINE}${GRAD_JSON_FILE}${NEWLINE}${EXIT}${NEWLINE}' | python main.py"
+        run_test "${dir}" "Grad and store a submission for ${STUDENT_ID_1} ${ASSIGNMENT_ID_2}" false "echo -e '${ADMIN_LOGIN}${GRAD_SUBMISSION}${NEWLINE}${STUDENT_ID_1}${NEWLINE}${ASSIGNMENT_ID_2}${NEWLINE}70${NEWLINE}${STORE_GRADES_TO_JSON}${NEWLINE}${GRAD_JSON_FILE}${NEWLINE}${EXIT}${NEWLINE}' | python main.py"
 
 
-        ###################### List all submissions ######################
-        run_test "${dir}" "Storing a submission" false "echo -e '${ADMIN_LOGIN}${ADD_SUBMISSION}${NEWLINE}${STUDENT_ID_2}${NEWLINE}${ASSIGNMENT_ID_1}${NEWLINE}${SUBMISSION_TEST_FILE_2}${NEWLINE}${EXIT}${NEWLINE}' | python main.py"
+        ###################### List all submissions: ######################
         run_test "${dir}" "Listing all submissions" true "echo -e '${ADMIN_LOGIN}${LIST_ALL_SUBMISSIONS}${NEWLINE}${EXIT}${NEWLINE}' | python main.py"
 
         ###################### List ungraded submissions ######################
@@ -127,22 +134,24 @@ for dir in "$BASE_DIR"/*; do
 
 
         ###################### Display average score ######################
-        run_test "${dir}" "Grading a submission" false "echo -e '${ADMIN_LOGIN}${GRAD_SUBMISSION}${NEWLINE}${STUDENT_ID_2}${NEWLINE}${ASSIGNMENT_ID_1}${NEWLINE}80${NEWLINE}${EXIT}${NEWLINE}' | python main.py"
+        run_test "${dir}" "Displaying average score for assignment1" true "echo -e '${ADMIN_LOGIN}${DISPLAY_AVERAGE_SCORE}${NEWLINE}${ASSIGNMENT_ID_1}${NEWLINE}${EXIT}${NEWLINE}' | python main.py"
 
-        run_test "${dir}" "Displaying average score" true "echo -e '${ADMIN_LOGIN}${DISPLAY_AVERAGE_SCORE}${NEWLINE}ALL${NEWLINE}${EXIT}${NEWLINE}' | python main.py"
+        run_test "${dir}" "Displaying average score for assignment2" true "echo -e '${ADMIN_LOGIN}${DISPLAY_AVERAGE_SCORE}${NEWLINE}${ASSIGNMENT_ID_2}${NEWLINE}${EXIT}${NEWLINE}' | python main.py"
+
+        run_test "${dir}" "Displaying average score for all" true "echo -e '${ADMIN_LOGIN}${DISPLAY_AVERAGE_SCORE}${NEWLINE}ALL${NEWLINE}${EXIT}${NEWLINE}' | python main.py"
 
 
 
         ###################### Display highest score ######################
-        run_test "${dir}" "Displaying highest scoring student" true "echo -e '${ADMIN_LOGIN}${DISPLAY_HIGHEST_SCORE}${NEWLINE}3' | python main.py"
+        run_test "${dir}" "Displaying highest scoring student" true "echo -e '${ADMIN_LOGIN}${DISPLAY_HIGHEST_SCORE}${NEWLINE}${EXIT}${NEWLINE}' | python main.py"
 
 
         ###################### Display students below a threshold ######################
-        run_test "${dir}" "Displaying students below a threshold" true "echo -e '${ADMIN_LOGIN}${DISPLAY_BELOW_THRESHOLD}${NEWLINE}${ASSIGNMENT_ID_1}${NEWLINE}50${NEWLINE}${EXIT}${NEWLINE}' | python main.py"
+        run_test "${dir}" "Displaying students below a threshold for ${ASSIGNMENT_ID_1}" true "echo -e '${ADMIN_LOGIN}${DISPLAY_BELOW_THRESHOLD}${NEWLINE}${ASSIGNMENT_ID_1}${NEWLINE}50${NEWLINE}${EXIT}${NEWLINE}' | python main.py"
 
-        > "$GRAD_JSON_FILE"
+        # > "$GRAD_JSON_FILE"
         ###################### Store Grades to a JSON File ######################
-        run_test "${dir}" "Storing grades to a JSON file" false "echo -e '${ADMIN_LOGIN}${DISPLAY_BELOW_THRESHOLD}${NEWLINE}${GRAD_JSON_FILE}${NEWLINE}${EXIT}${NEWLINE}' | python main.py"
+        # run_test "${dir}" "Storing grades to a JSON file" false "echo -e '${ADMIN_LOGIN}${STORE_GRADES_TO_JSON}${NEWLINE}${GRAD_JSON_FILE}${NEWLINE}${EXIT}${NEWLINE}' | python main.py"
 
         ###################### Retrieve Grades from a JSON File ######################
         run_test "${dir}" "Retrieving grades from a JSON file" true "echo -e '${ADMIN_LOGIN}${RETRIEVE_GRADES_FROM_JSON}${NEWLINE}${GRAD_JSON_FILE}${NEWLINE}${LIST_ALL_SUBMISSIONS}${NEWLINE}${EXIT}${NEWLINE}' | python main.py"
