@@ -1,11 +1,11 @@
 ### Modify the following files
 #### util.py
 ```python
-	def exit():
-		sys.exit(1)
-	-->
-	def exit():
-		sys.exit(0)
+def exit():
+	sys.exit(1)
+-->
+def exit():
+	sys.exit(0)
 
 ```
 
