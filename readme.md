@@ -1,3 +1,16 @@
+### Modify the following files
+#### util.py
+```python
+	def exit():
+		sys.exit(1)
+	-->
+	def exit():
+		sys.exit(0)
+
+```
+
+
+
 Log in
 If : admin\nZDHH\n3\n +10
 Else: +0
