@@ -1,3 +1,13 @@
+### Modify the following files
+#### util.py
+```python
+def exit():
+	sys.exit(1)
+-->
+def exit():
+	sys.exit(0)
+
+```
 Else: +0
 ## Guidance for users
 If : admin\nZDHH\n1\n3\n +10  
