@@ -1,6 +1,3 @@
-# Project Grading
-## Log In
-If : admin\nZDHH\n3\n +10  
 Else: +0
 ## Guidance for users
 If : admin\nZDHH\n1\n3\n +10  
