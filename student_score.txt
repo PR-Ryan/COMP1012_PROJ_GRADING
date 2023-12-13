@@ -1,3 +1,411 @@
+../22076482d 15
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 5/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 0/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../22080794d 10
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 0/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 0/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../22096109d 10
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 0/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 0/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../22097311d 10
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 0/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 0/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../22098149d 10
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 0/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 0/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../22098317d 10
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 0/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 0/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../22100067d 10
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 0/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 0/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../22100371d 25
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 5/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 10/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../22101483d 20
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 5/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 5/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../22103037d 10
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 0/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 0/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../22103067d 10
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 0/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 0/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../22107087d 10
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 0/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 0/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../22108344d 10
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 0/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 0/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../22108611d 30
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 20/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 0/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../22108634d 10
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 0/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 0/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../22110036d 10
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 0/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 0/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../23074883d 10
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 0/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 0/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../23077328d 15
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 0/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 5/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../23077701d 55
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 20/20
+Displaying average score for assignment1: 5/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 10/10
+Displaying students below a threshold 85 for assignment1: 10/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../23081753d 10
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 0/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 0/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../23082713d 10
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 0/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 0/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../23090891d 10
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 0/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 0/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../23091319d 25
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 5/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 10/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../23093649d 35
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 10/10
+Grad and listing all submissions: 5/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 0/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 10/10
+
+------------------------------------------------
+
 ../23095949d 95
 
 Exit function: 10/10
@@ -12,6 +420,312 @@ Displaying average score for all: 0/5
 Displaying highest scoring student: 10/10
 Displaying students below a threshold 85 for assignment1: 10/10
 Deleting a submission: 10/10
+
+------------------------------------------------
+
+../23096039d 15
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 5/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 0/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../23097036d 55
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 20/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 5/5
+Displaying highest scoring student: 10/10
+Displaying students below a threshold 85 for assignment1: 10/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../23097089d 10
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 0/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 0/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../23097165d 10
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 0/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 0/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../23097326d 10
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 0/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 0/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../23097363d 30
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 20/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 0/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../23097676d 50
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 20/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 10/10
+Displaying students below a threshold 85 for assignment1: 10/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../23097959d 55
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 20/20
+Displaying average score for assignment1: 5/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 10/10
+Displaying students below a threshold 85 for assignment1: 10/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../23099458d 10
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 0/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 0/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../23099603d 10
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 0/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 0/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../23100402d 25
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 5/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 10/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../23100669d 10
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 0/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 0/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../23103699d 15
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 5/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 0/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../23104316d 10
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 0/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 0/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../23107544d 30
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 20/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 0/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../23112015d 10
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 0/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 0/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../23112259d 40
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 10/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 10/10
+Displaying students below a threshold 85 for assignment1: 10/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
+../23113417d 25
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 5/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 10/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 0/10
 
 ------------------------------------------------
 

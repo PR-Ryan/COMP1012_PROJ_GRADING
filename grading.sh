@@ -3,7 +3,7 @@
 # -BASE_DIR
 #    -22100372d   
 #    -.......
-#    -grading_tools
+#    -COMP1012_PROJ_GRADING
 
 # Define the base directory containing student directories
 BASE_DIR=".."
