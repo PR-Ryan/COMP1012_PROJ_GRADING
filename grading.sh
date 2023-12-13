@@ -1,4 +1,9 @@
 #!/bin/bash
+# Directory Tree:
+# -BASE_DIR
+#    -22100372d   
+#    -.......
+#    -grading_tools
 
 # Define the base directory containing student directories
 BASE_DIR=".."
@@ -66,6 +71,18 @@ ADMIN_LOGIN="${ADMIN_USERNAME}${NL}${ADMIN_PASSWORD}${NL}"
 # Iterate over each student directory and run tests
 for dir in "$BASE_DIR"/*; do
     if [ -d "${dir}" ]; then  # Check if it's a directory
+        if [ ! -f "${SUBMISSION_TEST_FILE_1}" ]; then
+            cp "${GRADING_DIR}/backup/submission_test_file_1.txt" "${SUBMISSION_TEST_FILE_1}"
+        fi
+        if [ ! -f "${SUBMISSION_TEST_FILE_2}" ]; then
+            cp "${GRADING_DIR}/backup/submission_test_file_2.txt" "${SUBMISSION_TEST_FILE_2}"
+        fi
+        if [ ! -f "${SUBMISSION_TEST_FILE_3}" ]; then
+            cp "${GRADING_DIR}/backup/submission_test_file_3.txt" "${SUBMISSION_TEST_FILE_3}"
+        fi
+        if [ ! -f "${SUBMISSION_TEST_FILE_4}" ]; then
+            cp "${GRADING_DIR}/backup/submission_test_file_4.txt" "${SUBMISSION_TEST_FILE_4}"
+        fi
 
         GRAD_JSON_FILE="${dir}/grades.json"
         OUTPUT_FILE="${dir}/test_results.txt"
