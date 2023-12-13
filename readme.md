@@ -8,96 +8,31 @@ def exit():
 	sys.exit(0)
 
 ```
-Else: +0
-## Guidance for users
-If : admin\nZDHH\n1\n3\n +10  
-Else: +0
-## Add a user
-if : admin\nZDHH\n2\nnewuser\nnewpassword\n3\n +5  
-&emsp;&emsp;if : newuser\nnewpassword\n3\n +5  
-&emsp;&emsp;else: +0  
-else: +0
-## Add submission
-### Create a folder named “data”
-If : copy existing submission path to data success +2.5  
-&emsp;&emsp;If : name of the copied file == ‘{student id}_{assignment id}.txt’ +1.25  
-&emsp;&emsp;&emsp;&emsp;If: copied file content == original one +1.25  
-&emsp;&emsp;&emsp;&emsp;else : +0  
-&emsp;&emsp;else : +0  
-else: +0  
+### Usage
+```bash
+  bash grading.sh
+```
+### Grading Rules
+- test case 1: login with admin account +5
+- test case 2: show help info +5
+- test case 3: add a new user +5
+- test case 4: login with new user +5 
+- test case 5: add a submission for 001 assignment1 +5
+- test case 6: grade and list all submissions +20
+  - assignment 1, student 1, score 90 +5 
+  - assignment 1, student 2, score 80 +5
+  - assignment 2, student 1, score 70 +5
+  - assignment 2, student 2, score /  +5
+- test case 7: display average score for assignment1 5/5
+- test case 8: display average score for all 0/5
+- test case 9: display highest scoring student 10/10
+  - assignment 1, student 1 +5
+  - assignment 2, student 1 +5
+- test case 10: display students below a threshold 85 for assignment1 10/10
+- test case 11: delete a submission 10/10
 
-If : copy non-existing submission path to data return error +2.5  
-&emsp;&emsp;If : return error and let user enter choice again +2.5  
-&emsp;&emsp;else: +0  
-else: +0
-## Grade a submission
-If : grade the submission has content and shown content +2.5  
-&emsp;&emsp;If : can receive score and no error+2.5  
-&emsp;&emsp;else : +0  
-else: +0  
-
-If : grade the submission doesn’t have content and return error +2.5  
-&emsp;&emsp;If : return error and let user enter choice again +2.5  
-&emsp;&emsp;else: +0  
-else: +0
-## List all submission
-### Firstly update a submission with a new grade and test here
-If : show all submission +5  
-&emsp;&emsp;If : Grade updated is shown +2.5  
-&emsp;&emsp;&emsp;&emsp;If : Submission with no grade shown ‘/’ +2.5  
-&emsp;&emsp;&emsp;&emsp;else : +0  
-&emsp;&emsp;else : +0  
-else: +0  
-## List all submission have not been graded
-If : show all submission +5  
-&emsp;&emsp;If : submission include assignment id and student id +2.5  
-&emsp;&emsp;&emsp;&emsp;If : same submission with no grades shown seperately ‘/’ +2.5  
-&emsp;&emsp;&emsp;&emsp;else : +0  
-&emsp;&emsp;else : +0  
-else: +0  
-## Display the average score
-### Grade some submission
-1.    
-If : input ‘ALL’ will give average score of all submission +2.5  
-Else: +0  
-2.  
-If : input an id will give average score of all submission +2.5  
-Else: +0
-### Clear all grades
-3.  
-If : input ‘ALL’ will give 0 +1.25  
-&emsp;&emsp;If : input an id will give 0 +1.25
-&emsp;&emsp;else : +0  
-else: +0  
-4.    
-If : enter an id not in the existing id list and system exist +2.5  
-Else: +0
-## Display the student who has the highest score
-### Grade some submission
-If : Record of the highest score achiever in each assignments is listed +5  
-&emsp;&emsp;If : No grade shown ‘\’ +5  
-&emsp;&emsp;else : +0   
-else: +0  
-## Display the student whose score is less than a threshold!
-If : enter id and threshold show  assignment id, student id and score +5  
-&emsp;&emsp;If : not been graded submission id will return invalid choice; try again +2.5  
-&emsp;&emsp;&emsp;&emsp;If : enter an id not in the existing id list return invalid assignment id +2.5  
-&emsp;&emsp;&emsp;&emsp;else : +0  
-&emsp;&emsp;else : +0  
-else: +0  
-## Store the grade to a JSON file
-If : successfully store the file as json file +10
-Else: +0
-## Retrieve grade from JSON file
-If : successfully retrieve the json file +10
-Else: +0
-## Delete a submission and its grade
-If : successfully delete the submission +10
-Else: +0
-
-
-
-
-
-
-
+#### Notes
+- If the program raise error, 0 for the test case.
+- We give 10 by default for exit function.
+- We generate test log locate within each student's folder with name "test_results.txt" for further checking.
+- A "student_score.txt" will generate score summary for each student in the grading folder.  

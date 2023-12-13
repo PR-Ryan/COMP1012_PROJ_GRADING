@@ -1,0 +1,34 @@
+../23095949d 95
+
+Exit function: 10/10
+Login with admin and show start prompt: 5/5
+Show Help Information: 5/5
+Adding a new user: 5/5
+Login with new user: 5/5
+Add and store a submission for 001 assignment1: 10/10
+Grad and listing all submissions: 20/20
+Displaying average score for assignment1: 5/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 10/10
+Displaying students below a threshold 85 for assignment1: 10/10
+Deleting a submission: 10/10
+
+------------------------------------------------
+
+../COMP1012_PROJ_GRADING 10
+
+Exit function: 10/10
+Login with admin and show start prompt: 0/5
+Show Help Information: 0/5
+Adding a new user: 0/5
+Login with new user: 0/5
+Add and store a submission for 001 assignment1: 0/10
+Grad and listing all submissions: 0/20
+Displaying average score for assignment1: 0/5
+Displaying average score for all: 0/5
+Displaying highest scoring student: 0/10
+Displaying students below a threshold 85 for assignment1: 0/10
+Deleting a submission: 0/10
+
+------------------------------------------------
+
