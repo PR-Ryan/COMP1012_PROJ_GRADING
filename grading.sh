@@ -139,10 +139,10 @@ for dir in "$BASE_DIR"/*; do
         "echo -e '${ADMIN_LOGIN}${ADD_SUBMISSION}${NL}${STUDENT_ID_2}${NL}${ASSIGNMENT_ID_1}${NL}${SUBMISSION_TEST_FILE_2}${NL}${EXIT}${NL}' | python main.py"
 
         run_test "${dir}" "Store a submission ${STUDENT_ID_1} ${ASSIGNMENT_ID_2}" false \
-        "echo -e '${ADMIN_LOGIN}${ADD_SUBMISSION}${NL}${STUDENT_ID_1}${NL}${ASSIGNMENT_ID_2}${NL}${SUBMISSION_TEST_FILE_2}${NL}${EXIT}${NL}' | python main.py"
+        "echo -e '${ADMIN_LOGIN}${ADD_SUBMISSION}${NL}${STUDENT_ID_1}${NL}${ASSIGNMENT_ID_2}${NL}${SUBMISSION_TEST_FILE_3}${NL}${EXIT}${NL}' | python main.py"
 
         run_test "${dir}" "Store a submission ${STUDENT_ID_2} ${ASSIGNMENT_ID_2}" false \
-        "echo -e '${ADMIN_LOGIN}${ADD_SUBMISSION}${NL}${STUDENT_ID_2}${NL}${ASSIGNMENT_ID_2}${NL}${SUBMISSION_TEST_FILE_2}${NL}${EXIT}${NL}' | python main.py"
+        "echo -e '${ADMIN_LOGIN}${ADD_SUBMISSION}${NL}${STUDENT_ID_2}${NL}${ASSIGNMENT_ID_2}${NL}${SUBMISSION_TEST_FILE_4}${NL}${EXIT}${NL}' | python main.py"
 
         ###################### Grad a submission: student 2 with assignment 2 is not graded ######################
         run_test "${dir}" "Grad and store a submission for ${STUDENT_ID_1} ${ASSIGNMENT_ID_1}" false \
