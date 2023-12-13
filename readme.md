@@ -34,5 +34,5 @@ def exit():
 #### Notes
 - If the program raise error, 0 for the test case.
 - We give 10 by default for exit function.
-- We generate test log locate within each student's folder with name "test_results.txt" for further checking.
+- We generate test log located within each student's folder with name "test_results.txt" for further checking.
 - A "student_score.txt" will generate score summary for each student in the grading folder.  
