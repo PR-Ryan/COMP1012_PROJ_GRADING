@@ -23,13 +23,13 @@ def exit():
   - assignment 1, student 2, score 80 +5
   - assignment 2, student 1, score 70 +5
   - assignment 2, student 2, score /  +5
-- test case 7: display average score for assignment1 5/5
-- test case 8: display average score for all 0/5
-- test case 9: display highest scoring student 10/10
+- test case 7: display average score for assignment1 +5
+- test case 8: display average score for all +5
+- test case 9: display highest scoring student +10
   - assignment 1, student 1 +5
   - assignment 2, student 1 +5
-- test case 10: display students below a threshold 85 for assignment1 10/10
-- test case 11: delete a submission 10/10
+- test case 10: display students below a threshold 85 for assignment1 +10
+- test case 11: delete a submission +10
 
 #### Notes
 - If the program raise error, 0 for the test case.
